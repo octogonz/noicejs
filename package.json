@@ -56,5 +56,15 @@
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
     "webpack-dts-bundle": "^0.0.2"
+  },
+  "nyc": {
+    "exclude": [
+      "**/node_modules/**",
+      "test/**"
+    ],
+    "include": [
+      "out/**",
+      "src/**"
+    ]
   }
 }
